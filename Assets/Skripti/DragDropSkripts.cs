@@ -34,6 +34,8 @@ public class DragDropSkripts : MonoBehaviour, IPointerDownHandler, IBeginDragHan
 		
 	public void OnDrag(PointerEventData notikums){
 		Debug.Log ("Notiek vilkšana!");
+		objektuSkripts.pedejaisVIlktais = notikums.pointerDrag;
+
 		//Maina objekta x, y koordinātas
 		velkObjRectTransf.anchoredPosition += notikums.delta / objektuSkripts.kanva.scaleFactor;
 	}
