@@ -58,6 +58,42 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler {
 						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
 						break;
 
+					case "B2":
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+
+					case "Cements":
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+
+					case "E46":
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+
+					case "Ekskavators":
+						
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+					case "Policija":
+						
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+					case "Traktors1":
+
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+					case "Traktors5":
+
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+
+					case "Uguns":
+
+						objektuSkripts.skanasAvots.PlayOneShot (objektuSkripts.skanaKoAtskanot [3]);
+						break;
+
+
+
 					default:
 						Debug.Log ("Nedefinēts tags!");
 						break;
@@ -83,6 +119,38 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler {
 					break;
 
 				case "Skola":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "B2":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Cements":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "E46":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Ekskavators":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Policija":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Traktors1":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Traktors5":
+					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
+					= objektuSkripts.bussKoord;
+					break;
+				case "Uguns":
 					objektuSkripts.autobuss.GetComponent<RectTransform> ().localPosition 
 					= objektuSkripts.bussKoord;
 					break;
